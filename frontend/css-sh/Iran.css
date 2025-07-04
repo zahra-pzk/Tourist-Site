@@ -1,0 +1,65 @@
+@font-face {
+    font-family: "yekan";
+    src: url(../font/yekan.ttf);   
+}
+
+body {
+    background-color: white;
+    font-family: "yekan";
+    margin-top: 100px;
+    direction: rtl;
+}
+.div-main {
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 50px;
+    align-items: center;
+}
+
+.div-one {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.div-one-photo {
+    display: flex;
+    gap: 49px;
+}
+
+.ph {
+    border-radius: 10px;
+}
+
+.ph-one {
+    border-radius: 10px;
+}
+
+#ph-3 {
+    border: 2px solid black;
+    opacity: 0.5;
+}
+
+.div-two {
+    display: flex;
+    flex-direction: column;
+}
+
+.paragraph {
+    width: 300px;
+    word-wrap: break-word;
+    margin-top: 9px;
+    color: gray;
+}
+
+.h1 {
+    width: 280px;
+    font-size: 30px;
+    word-wrap: break-word;
+    margin-top: 15px;
+}
+
+.title {
+    font-size: 13px;
+    color: gray;
+}
