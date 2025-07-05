@@ -21,9 +21,6 @@ func main() {
 
 	router := routes.RegisterRoutes()
 
-	fs := http.FileServer(http.Dir("../frontend"))
-	router.PathPrefix("/").Handler(fs)
-
 	fmt.Println("✅ Server running on http://localhost:8080")
 	log.Fatal(http.ListenAndServe(":8080", router))
 }
